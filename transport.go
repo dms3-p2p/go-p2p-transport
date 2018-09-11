@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
-	logging "github.com/ipfs/go-log"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	smux "github.com/libp2p/go-stream-muxer"
-	ma "github.com/multiformats/go-multiaddr"
+	logging "github.com/dms3-fs/go-log"
+	inet "github.com/dms3-p2p/go-p2p-net"
+	peer "github.com/dms3-p2p/go-p2p-peer"
+	smux "github.com/dms3-p2p/go-stream-muxer"
+	ma "github.com/dms3-mft/go-multiaddr"
 )
 
 // DialTimeout is the maximum duration a Dial is allowed to take.

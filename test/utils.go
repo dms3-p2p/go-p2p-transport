@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"testing"
 
-	peer "github.com/libp2p/go-libp2p-peer"
-	tpt "github.com/libp2p/go-libp2p-transport"
-	ma "github.com/multiformats/go-multiaddr"
+	peer "github.com/dms3-p2p/go-p2p-peer"
+	tpt "github.com/dms3-p2p/go-p2p-transport"
+	ma "github.com/dms3-mft/go-multiaddr"
 )
 
 var Subtests = []func(t *testing.T, ta, tb tpt.Transport, maddr ma.Multiaddr, peerA peer.ID){
